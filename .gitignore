@@ -1,0 +1,21 @@
+# Ignore macOS Finder user-related files
+.DS_Store
+
+# Ignore Xcode user-related files
+xcuserdata/
+
+# Xcode files
+*.xcodeproj/*
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+build/*
+xcshareddata/
+
+# Ignore AppCode user-related files
+.idea/
+
+# Ignore Carthage installed files
+Carthage
+/BACtrackBreathalyzerSDKDemo/.idea/
