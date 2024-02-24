@@ -1,0 +1,16 @@
+PODS:
+  - BreathalyzerSDK (2.4.0)
+
+DEPENDENCIES:
+  - BreathalyzerSDK
+
+SPEC REPOS:
+  trunk:
+    - BreathalyzerSDK
+
+SPEC CHECKSUMS:
+  BreathalyzerSDK: cd026bffdd48d68f3e6f6bf2a98de10946537c88
+
+PODFILE CHECKSUM: 69649a2d3c303fc4aaec70009360bbdad8ab5696
+
+COCOAPODS: 1.14.3

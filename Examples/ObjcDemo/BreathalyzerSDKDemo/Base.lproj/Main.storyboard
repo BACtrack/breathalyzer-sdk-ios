@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bactrack View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BactrackViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAQ-Aq-D3Q">
+                                <rect key="frame" x="16" y="496" width="361" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="PPT-Ha-e8E"/>
+                                    <constraint firstAttribute="width" constant="361" id="vDh-oV-LJU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Connect Breathalyzer"/>
+                                <connections>
+                                    <action selector="onTapConnectBreathalyzer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uD3-nz-Xsx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTa-g5-Dc7">
+                                <rect key="frame" x="16" y="676" width="361" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="vOh-mb-KYF"/>
+                                    <constraint firstAttribute="width" constant="361" id="xeX-TB-Q15"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start Test Countdown"/>
+                                <connections>
+                                    <action selector="onTapStartTestCountdown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSV-GC-Rog"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCq-oA-oRG">
+                                <rect key="frame" x="16" y="734" width="361" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="SCA-tB-fUj"/>
+                                    <constraint firstAttribute="width" constant="361" id="i81-MN-Hhr"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Disconnect"/>
+                                <connections>
+                                    <action selector="onTapDisconnect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jlL-ei-Xv0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJk-UC-iqG">
+                                <rect key="frame" x="16" y="618" width="361" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="52w-03-W2d"/>
+                                    <constraint firstAttribute="width" constant="361" id="kqn-d6-XBd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Serial Number"/>
+                                <connections>
+                                    <action selector="onTapGetSerialNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JZf-QF-hrD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNX-vc-I94">
+                                <rect key="frame" x="16" y="559" width="361" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="0v2-Vm-UYu"/>
+                                    <constraint firstAttribute="width" constant="361" id="MEh-pz-U8I"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Battery Level"/>
+                                <connections>
+                                    <action selector="onTapGetBatteryLevel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E9x-NG-Y5M"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bactrack_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lN8-Kr-OnD">
+                                <rect key="frame" x="61" y="59.000000000000007" width="271" height="126.66666666666669"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Device Connected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89U-8P-Obn">
+                                <rect key="frame" x="0.0" y="225" width="393" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="yJ8-Fp-mxA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Searching Breathalyzers.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cn-r3-WvU">
+                                <rect key="frame" x="0.0" y="281" width="393" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="k7Z-1j-omS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="89U-8P-Obn" firstAttribute="centerX" secondItem="bAQ-Aq-D3Q" secondAttribute="centerX" id="12W-v9-tPI"/>
+                            <constraint firstItem="NNX-vc-I94" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2Eb-9h-cZg"/>
+                            <constraint firstItem="fJk-UC-iqG" firstAttribute="top" secondItem="NNX-vc-I94" secondAttribute="bottom" constant="17" id="2kU-4f-3KB"/>
+                            <constraint firstItem="cCq-oA-oRG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6me-IM-pSU"/>
+                            <constraint firstItem="cCq-oA-oRG" firstAttribute="top" secondItem="bTa-g5-Dc7" secondAttribute="bottom" constant="16" id="Cdm-e1-Yco"/>
+                            <constraint firstItem="4Cn-r3-WvU" firstAttribute="leading" secondItem="89U-8P-Obn" secondAttribute="leading" id="Dxb-1L-mdi"/>
+                            <constraint firstItem="lN8-Kr-OnD" firstAttribute="centerX" secondItem="89U-8P-Obn" secondAttribute="centerX" id="KAn-1S-oaj"/>
+                            <constraint firstItem="89U-8P-Obn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="225" id="Mgm-bn-EDL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fJk-UC-iqG" secondAttribute="trailing" constant="16" id="OC5-6X-eph"/>
+                            <constraint firstItem="fJk-UC-iqG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PIl-bW-SdI"/>
+                            <constraint firstItem="NNX-vc-I94" firstAttribute="top" secondItem="bAQ-Aq-D3Q" secondAttribute="bottom" constant="21" id="QNU-Zh-6Dp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cCq-oA-oRG" secondAttribute="trailing" constant="16" id="S2z-gy-U0R"/>
+                            <constraint firstItem="89U-8P-Obn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TSO-fD-XgJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bTa-g5-Dc7" secondAttribute="trailing" constant="16" id="W4E-hW-Gh3"/>
+                            <constraint firstItem="bTa-g5-Dc7" firstAttribute="top" secondItem="fJk-UC-iqG" secondAttribute="bottom" constant="16" id="Zt3-17-LGH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NNX-vc-I94" secondAttribute="trailing" constant="16" id="adu-0q-HsQ"/>
+                            <constraint firstItem="lN8-Kr-OnD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jy2-Tm-yGZ"/>
+                            <constraint firstItem="4Cn-r3-WvU" firstAttribute="trailing" secondItem="89U-8P-Obn" secondAttribute="trailing" id="jye-oO-pbM"/>
+                            <constraint firstItem="lN8-Kr-OnD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="mYG-Ke-0dY"/>
+                            <constraint firstItem="4Cn-r3-WvU" firstAttribute="top" secondItem="89U-8P-Obn" secondAttribute="bottom" constant="36" id="nW5-jy-4HV"/>
+                            <constraint firstItem="bAQ-Aq-D3Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="plm-J3-0Ct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cCq-oA-oRG" secondAttribute="bottom" constant="42" id="t82-ir-jrt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bAQ-Aq-D3Q" secondAttribute="trailing" constant="16" id="tBf-8P-X7K"/>
+                            <constraint firstItem="bTa-g5-Dc7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yi4-Hk-fYF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="breathalyzerStateLabel" destination="4Cn-r3-WvU" id="nSb-Hf-JTu"/>
+                        <outlet property="connectionLabel" destination="89U-8P-Obn" id="oU5-tJ-61b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9.9236641221374047" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bactrack_logo" width="596.66668701171875" height="126.66666412353516"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+
+target 'BreathalyzerSDKDemo' do
+  use_frameworks!
+  pod 'BreathalyzerSDK'
+
+end

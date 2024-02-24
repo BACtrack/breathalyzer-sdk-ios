@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07D78AB33C54EB5113B65EBC654AE6E8 /* BreathalyzerSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 836CE75F20066729AFF342FE43AB4F15 /* Build configuration list for PBXAggregateTarget "BreathalyzerSDK" */;
+			buildPhases = (
+				2B270BD79498F095AD55229B58937FCA /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = BreathalyzerSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1AB954321C275949735415732C1CC047 /* Pods-BreathalyzerSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3991F3201C58A763E267FAFE5A8BD470 /* Pods-BreathalyzerSDKDemo-dummy.m */; };
+		D1E33575585D2007349FFB88D9FE5F5A /* Pods-BreathalyzerSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C25E562D55EB3CC25F3D3F71A06EF7 /* Pods-BreathalyzerSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1EFCCE39D17D5A8029B50862ED90C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E18DC8EAD4539285352A94D257E1A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D78AB33C54EB5113B65EBC654AE6E8;
+			remoteInfo = BreathalyzerSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C25E562D55EB3CC25F3D3F71A06EF7 /* Pods-BreathalyzerSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BreathalyzerSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		1108D160576BA020D72A3DCC5E62741B /* BreathalyzerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BreathalyzerSDK.release.xcconfig; sourceTree = "<group>"; };
+		3991F3201C58A763E267FAFE5A8BD470 /* Pods-BreathalyzerSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BreathalyzerSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		3F155E134B623BB974CC218967E0483D /* Pods-BreathalyzerSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BreathalyzerSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		408285F576D61621619CD0567E1D2BEB /* Pods-BreathalyzerSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BreathalyzerSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		52F115A68D72DF31F7A75DE73681D68F /* Pods-BreathalyzerSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BreathalyzerSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		64086F71D66377696EB05D161DF81380 /* BreathalyzerSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BreathalyzerSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		69A218262CB8B49397B0E073B7F986ED /* Pods-BreathalyzerSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BreathalyzerSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		802FC8488C740E8846A13BB5D1DA91A5 /* BreathalyzerSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BreathalyzerSDK.xcframework; sourceTree = "<group>"; };
+		810ED024F8AC99841CFBA38C1D2BC964 /* Pods-BreathalyzerSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BreathalyzerSDKDemo.modulemap"; sourceTree = "<group>"; };
+		991D3CE8E641D505BAA660C3E44A8E3D /* Pods-BreathalyzerSDKDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BreathalyzerSDKDemo"; path = Pods_BreathalyzerSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E82A47C264A95E729DEC076BBD32531 /* Pods-BreathalyzerSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BreathalyzerSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B1CA3F8025EA123ECBD86B87F7FCD234 /* BreathalyzerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BreathalyzerSDK.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC4AD62FC0360F9EF0821BD989D5ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1EFCCE39D17D5A8029B50862ED90C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000368218F3E35D4C203A9C25F5E4BB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C77892058F52C0974BE747ECEFA75C4 /* Pods-BreathalyzerSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FBA92D69DD32CB14094FC379DD70715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802FC8488C740E8846A13BB5D1DA91A5 /* BreathalyzerSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3006B64FC8E489987C4BBC7CD302046F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64086F71D66377696EB05D161DF81380 /* BreathalyzerSDK-xcframeworks.sh */,
+				B1CA3F8025EA123ECBD86B87F7FCD234 /* BreathalyzerSDK.debug.xcconfig */,
+				1108D160576BA020D72A3DCC5E62741B /* BreathalyzerSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BreathalyzerSDK";
+			sourceTree = "<group>";
+		};
+		3C77892058F52C0974BE747ECEFA75C4 /* Pods-BreathalyzerSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				810ED024F8AC99841CFBA38C1D2BC964 /* Pods-BreathalyzerSDKDemo.modulemap */,
+				69A218262CB8B49397B0E073B7F986ED /* Pods-BreathalyzerSDKDemo-acknowledgements.markdown */,
+				52F115A68D72DF31F7A75DE73681D68F /* Pods-BreathalyzerSDKDemo-acknowledgements.plist */,
+				3991F3201C58A763E267FAFE5A8BD470 /* Pods-BreathalyzerSDKDemo-dummy.m */,
+				408285F576D61621619CD0567E1D2BEB /* Pods-BreathalyzerSDKDemo-Info.plist */,
+				01C25E562D55EB3CC25F3D3F71A06EF7 /* Pods-BreathalyzerSDKDemo-umbrella.h */,
+				9E82A47C264A95E729DEC076BBD32531 /* Pods-BreathalyzerSDKDemo.debug.xcconfig */,
+				3F155E134B623BB974CC218967E0483D /* Pods-BreathalyzerSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-BreathalyzerSDKDemo";
+			path = "Target Support Files/Pods-BreathalyzerSDKDemo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FFA5BFA4C4BABCDBD06A3A82C7DA6AFF /* Pods */,
+				E226F3FCE8A92421497F0C6BABBB556D /* Products */,
+				000368218F3E35D4C203A9C25F5E4BB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E226F3FCE8A92421497F0C6BABBB556D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991D3CE8E641D505BAA660C3E44A8E3D /* Pods-BreathalyzerSDKDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E50A83205E8A7D6D6CC0CFBB16AAF859 /* BreathalyzerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA92D69DD32CB14094FC379DD70715 /* Frameworks */,
+				3006B64FC8E489987C4BBC7CD302046F /* Support Files */,
+			);
+			name = BreathalyzerSDK;
+			path = BreathalyzerSDK;
+			sourceTree = "<group>";
+		};
+		FFA5BFA4C4BABCDBD06A3A82C7DA6AFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E50A83205E8A7D6D6CC0CFBB16AAF859 /* BreathalyzerSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15068F65FF505FE94F9B9106BD6C0554 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E33575585D2007349FFB88D9FE5F5A /* Pods-BreathalyzerSDKDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4F4577038906AAFE83D2F96760BDD62 /* Pods-BreathalyzerSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BA3663CEBDC59FCC0A6B46BEE582C3 /* Build configuration list for PBXNativeTarget "Pods-BreathalyzerSDKDemo" */;
+			buildPhases = (
+				15068F65FF505FE94F9B9106BD6C0554 /* Headers */,
+				95F5E2EB30C41F25884DA08528FE9DE7 /* Sources */,
+				1AC4AD62FC0360F9EF0821BD989D5ADE /* Frameworks */,
+				81281D75600795CDB7CDB8E4C17BC818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A1B837923BAEC761E4261A0240A395 /* PBXTargetDependency */,
+			);
+			name = "Pods-BreathalyzerSDKDemo";
+			productName = Pods_BreathalyzerSDKDemo;
+			productReference = 991D3CE8E641D505BAA660C3E44A8E3D /* Pods-BreathalyzerSDKDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E226F3FCE8A92421497F0C6BABBB556D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D78AB33C54EB5113B65EBC654AE6E8 /* BreathalyzerSDK */,
+				B4F4577038906AAFE83D2F96760BDD62 /* Pods-BreathalyzerSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81281D75600795CDB7CDB8E4C17BC818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B270BD79498F095AD55229B58937FCA /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BreathalyzerSDK/BreathalyzerSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BreathalyzerSDK/BreathalyzerSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BreathalyzerSDK/BreathalyzerSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F5E2EB30C41F25884DA08528FE9DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB954321C275949735415732C1CC047 /* Pods-BreathalyzerSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A1B837923BAEC761E4261A0240A395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BreathalyzerSDK;
+			target = 07D78AB33C54EB5113B65EBC654AE6E8 /* BreathalyzerSDK */;
+			targetProxy = 8E18DC8EAD4539285352A94D257E1A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0212447258BF8D7F83B7593582EF1208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F155E134B623BB974CC218967E0483D /* Pods-BreathalyzerSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BreathalyzerSDKDemo/Pods-BreathalyzerSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BreathalyzerSDKDemo/Pods-BreathalyzerSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		166E258926B145B1F836C409E831603F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CA3F8025EA123ECBD86B87F7FCD234 /* BreathalyzerSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1F9EF8B25978D90F3BC7982559714F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1108D160576BA020D72A3DCC5E62741B /* BreathalyzerSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97A176C89A50CAA694129C42B582C156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E82A47C264A95E729DEC076BBD32531 /* Pods-BreathalyzerSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BreathalyzerSDKDemo/Pods-BreathalyzerSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BreathalyzerSDKDemo/Pods-BreathalyzerSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836CE75F20066729AFF342FE43AB4F15 /* Build configuration list for PBXAggregateTarget "BreathalyzerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E258926B145B1F836C409E831603F /* Debug */,
+				2F1F9EF8B25978D90F3BC7982559714F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BA3663CEBDC59FCC0A6B46BEE582C3 /* Build configuration list for PBXNativeTarget "Pods-BreathalyzerSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A176C89A50CAA694129C42B582C156 /* Debug */,
+				0212447258BF8D7F83B7593582EF1208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
