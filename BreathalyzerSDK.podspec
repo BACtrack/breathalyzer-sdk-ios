@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://developer.bactrack.com"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "BACtrack Engineering" => "engineering@bactrack.com" }
-    s.source       = { :git => "https://github.com/BACtrack/ios-sdk-sources.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/BACtrack/breathalyzer-sdk-ios.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "BreathalyzerSDK.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '13.0'

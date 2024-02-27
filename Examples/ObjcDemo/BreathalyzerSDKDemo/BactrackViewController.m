@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  mBacTrack = [[BacTrackAPI alloc] initWithDelegate:self AndAPIKey:@""];
+  mBacTrack = [[BacTrackAPI alloc] initWithDelegate:self AndAPIKey:@"ivan_pereira_developer"];
   [mBacTrack startScan];
 }
 
@@ -51,6 +51,7 @@
 -(void)BacTrackAPIKeyDeclined:(NSString *)errorMessage
 {
   NSLog(@"BACtrack: API Key Declined");
+  breathalyzerStateLabel.text = @"API Key Declined";
 }
 
 
@@ -75,7 +76,7 @@
 -(void)BacTrackCountdown:(NSNumber *)seconds executionFailure:(BOOL)failure
 {
   NSLog(@"BACtrack: Countdown: %d", seconds.intValue);
-  NSString *displayText = [NSString stringWithFormat:@"Preparing Breathalyzer: %@", seconds.stringValue];
+  NSString *displayText = [NSString stringWithFormat:@"Warming up: %@", seconds.stringValue];
   breathalyzerStateLabel.text = displayText;
 
 }
