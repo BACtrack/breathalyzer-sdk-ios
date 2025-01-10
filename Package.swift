@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "BreathalyzerSDK",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
