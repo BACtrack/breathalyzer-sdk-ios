@@ -1,0 +1,4 @@
+module BreathalyzerSDK {
+    umbrella header "BACtrack.h"
+    export *
+}
